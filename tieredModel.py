@@ -22,6 +22,7 @@ kannada_test_image = np.array(Image.open('test_english.png'))
 test_images = [english_test_image, kannada_test_image]
 
 # Database Init
+# validation database digits job : /usr/share/digits/digits/jobs/20160517-024602-8aa8
 # TODO: Test with entire lmdb database
 # TODO: preprocess images
 # transformer = caffe.io.Transformer({'data': net.blobs['data'].data.shape})
